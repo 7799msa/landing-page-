@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* img{
+    width: 25vw;
+    height: 25vw;
+    margin-right:70px;
+    
+} */
+.img{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4vw;
+}
+.con{
+    margin-left:5vw;
+    padding: 0px;
+}
+.con h1{
+    color: white;
+}
+.con p{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 45vw;
+    
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+/* .logo{
+    height: 5vw;
+    background-color: black;
+} */
+.button{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    height: 40px;
+    width: 120px;
+    color: rgb(90, 80, 80);
+    background-color: whitesmoke;
+
+}
+.button :hover{
+    background-color: black;
+    box-shadow: 0px 0px 24px blue;
+}
+body{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    margin-left: 750px;
+    
+    
+}
+.home a{
+    text-decoration:none;
+    color: white;
+    margin-left: 25px;
+    font-size:3vw;
+}
+.servies a{
+    text-decoration:none;
+    color: white;
+    font-size:3vw;
+    
+}
+.contect a{
+    text-decoration:none;
+    color: white;
+    font-size:3vw;
+    
+}
+.end_div h1{
+    color: white;
+}
+.prize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    border-radius: 5px white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.box1{
+    
+    width: 35vw;
+    height: 25vw;
+    background-color: azure;
+    box-shadow: 0px 0px 25px white;
+    
+    
+}
+.box1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+.box1 h4{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.box2{
+    
+    width: 35vw;
+    height: 25vw;
+    background-color: azure;
+    box-shadow: 0px 0px 25px white;
+}
+.box2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    
+}
+.box2 h4{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+}
+.box3{
+    
+    width: 35vw;
+    height: 25vw;
+    background-color: azure;   
+    box-shadow: 0px 0px 25px white;
+}
+.box3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 15vw;
+    text-transform: uppercase;
+    color: black;
+    font-size: 3vw;
+}
+.box3 h4{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+}
+.box3 p{
+    font-size: 1.15vw;
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.box2 p{
+    font-size: 1.25vw;
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.box1 p{
+    font-size: 1.25vw;
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
